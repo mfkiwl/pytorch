@@ -121,7 +121,7 @@ NAdam.__doc__ = r"""Implements NAdam algorithm.
             &\rule{110mm}{0.4pt}                                                                 \\
             &\textbf{for} \: t=1 \: \textbf{to} \: \ldots \: \textbf{do}                         \\
             &\hspace{5mm}g_t           \leftarrow   \nabla_{\theta} f_t (\theta_{t-1})           \\
-            &\hspace{5mm}\textbf{if} \: \lambda \neq 0 \text{ and not } \textit{decoupled_weight_decay} \\
+            &\hspace{5mm}\textbf{if} \: \lambda \neq 0 \text{ and not } \textit{decoupled\_weight\_decay} \\
             &\hspace{10mm} g_t \leftarrow g_t + \lambda \theta_{t-1}                             \\
             &\hspace{5mm}\textbf{else}                                                           \\
             &\hspace{10mm} \theta_t \leftarrow \theta_{t-1} - \gamma \lambda \theta_{t-1}        \\
